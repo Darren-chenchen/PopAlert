@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D946D71F0CDBFC00A1D47F /* MessageStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946C51F0CDBFC00A1D47F /* MessageStyleView.swift */; };
+		95D946D81F0CDBFC00A1D47F /* MessageStyleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D946C61F0CDBFC00A1D47F /* MessageStyleView.xib */; };
+		95D946D91F0CDBFC00A1D47F /* NomalStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946C71F0CDBFC00A1D47F /* NomalStyleView.swift */; };
+		95D946DA1F0CDBFC00A1D47F /* NomalStyleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D946C81F0CDBFC00A1D47F /* NomalStyleView.xib */; };
+		95D946DB1F0CDBFC00A1D47F /* HDAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946C91F0CDBFC00A1D47F /* HDAlertViewController.swift */; };
+		95D946DC1F0CDBFC00A1D47F /* PopViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946CA1F0CDBFC00A1D47F /* PopViewUtil.swift */; };
+		95D946DD1F0CDBFC00A1D47F /* ic_toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D946CC1F0CDBFC00A1D47F /* ic_toast_success@2x.png */; };
+		95D946DE1F0CDBFC00A1D47F /* ic_toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D946CD1F0CDBFC00A1D47F /* ic_toast_success@3x.png */; };
+		95D946DF1F0CDBFC00A1D47F /* icon_sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D946CE1F0CDBFC00A1D47F /* icon_sign@2x.png */; };
+		95D946E01F0CDBFC00A1D47F /* icon_sign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D946CF1F0CDBFC00A1D47F /* icon_sign@3x.png */; };
+		95D946E11F0CDBFC00A1D47F /* HDToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946D11F0CDBFC00A1D47F /* HDToast.swift */; };
+		95D946E21F0CDBFC00A1D47F /* ImageToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946D21F0CDBFC00A1D47F /* ImageToast.swift */; };
+		95D946E31F0CDBFC00A1D47F /* ImageToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D946D31F0CDBFC00A1D47F /* ImageToast.xib */; };
+		95D946E41F0CDBFC00A1D47F /* TextToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946D41F0CDBFC00A1D47F /* TextToast.swift */; };
+		95D946E51F0CDBFC00A1D47F /* TextToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D946D51F0CDBFC00A1D47F /* TextToast.xib */; };
+		95D946E61F0CDBFC00A1D47F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946D61F0CDBFC00A1D47F /* UIViewExt.swift */; };
+		95D946F31F0CDC1300A1D47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946E71F0CDC1300A1D47F /* AppDelegate.swift */; };
+		95D946F41F0CDC1300A1D47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D946E81F0CDC1300A1D47F /* Assets.xcassets */; };
+		95D946F51F0CDC1300A1D47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D946EA1F0CDC1300A1D47F /* LaunchScreen.storyboard */; };
+		95D946F61F0CDC1300A1D47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D946EC1F0CDC1300A1D47F /* Main.storyboard */; };
+		95D946F71F0CDC1300A1D47F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D946EE1F0CDC1300A1D47F /* Info.plist */; };
+		95D946F81F0CDC1300A1D47F /* TestAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946EF1F0CDC1300A1D47F /* TestAlertViewController.swift */; };
+		95D946F91F0CDC1300A1D47F /* TestToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946F01F0CDC1300A1D47F /* TestToastViewController.swift */; };
+		95D946FA1F0CDC1300A1D47F /* TestToastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D946F11F0CDC1300A1D47F /* TestToastViewController.xib */; };
+		95D946FB1F0CDC1300A1D47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D946F21F0CDC1300A1D47F /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952B3ADD1F038975007CDF9F /* PopupAlert-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PopupAlert-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D946C51F0CDBFC00A1D47F /* MessageStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStyleView.swift; sourceTree = "<group>"; };
+		95D946C61F0CDBFC00A1D47F /* MessageStyleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageStyleView.xib; sourceTree = "<group>"; };
+		95D946C71F0CDBFC00A1D47F /* NomalStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NomalStyleView.swift; sourceTree = "<group>"; };
+		95D946C81F0CDBFC00A1D47F /* NomalStyleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NomalStyleView.xib; sourceTree = "<group>"; };
+		95D946C91F0CDBFC00A1D47F /* HDAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDAlertViewController.swift; sourceTree = "<group>"; };
+		95D946CA1F0CDBFC00A1D47F /* PopViewUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewUtil.swift; sourceTree = "<group>"; };
+		95D946CC1F0CDBFC00A1D47F /* ic_toast_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_toast_success@2x.png"; sourceTree = "<group>"; };
+		95D946CD1F0CDBFC00A1D47F /* ic_toast_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_toast_success@3x.png"; sourceTree = "<group>"; };
+		95D946CE1F0CDBFC00A1D47F /* icon_sign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sign@2x.png"; sourceTree = "<group>"; };
+		95D946CF1F0CDBFC00A1D47F /* icon_sign@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sign@3x.png"; sourceTree = "<group>"; };
+		95D946D11F0CDBFC00A1D47F /* HDToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDToast.swift; sourceTree = "<group>"; };
+		95D946D21F0CDBFC00A1D47F /* ImageToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToast.swift; sourceTree = "<group>"; };
+		95D946D31F0CDBFC00A1D47F /* ImageToast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageToast.xib; sourceTree = "<group>"; };
+		95D946D41F0CDBFC00A1D47F /* TextToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToast.swift; sourceTree = "<group>"; };
+		95D946D51F0CDBFC00A1D47F /* TextToast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextToast.xib; sourceTree = "<group>"; };
+		95D946D61F0CDBFC00A1D47F /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		95D946E71F0CDC1300A1D47F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "PopupAlert-iOS/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		95D946E81F0CDC1300A1D47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "PopupAlert-iOS/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		95D946EB1F0CDC1300A1D47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95D946ED1F0CDC1300A1D47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		95D946EE1F0CDC1300A1D47F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "PopupAlert-iOS/Info.plist"; sourceTree = SOURCE_ROOT; };
+		95D946EF1F0CDC1300A1D47F /* TestAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAlertViewController.swift; path = "PopupAlert-iOS/TestAlertViewController.swift"; sourceTree = SOURCE_ROOT; };
+		95D946F01F0CDC1300A1D47F /* TestToastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestToastViewController.swift; path = "PopupAlert-iOS/TestToastViewController.swift"; sourceTree = SOURCE_ROOT; };
+		95D946F11F0CDC1300A1D47F /* TestToastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestToastViewController.xib; path = "PopupAlert-iOS/TestToastViewController.xib"; sourceTree = SOURCE_ROOT; };
+		95D946F21F0CDC1300A1D47F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "PopupAlert-iOS/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952B3ADA1F038975007CDF9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952B3AD41F038975007CDF9F = {
+			isa = PBXGroup;
+			children = (
+				952B3ADF1F038975007CDF9F /* PopupAlert-iOS */,
+				952B3ADE1F038975007CDF9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952B3ADE1F038975007CDF9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952B3ADD1F038975007CDF9F /* PopupAlert-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952B3ADF1F038975007CDF9F /* PopupAlert-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				95D946C31F0CDBFC00A1D47F /* pop */,
+				95D946FC1F0CDC1800A1D47F /* other */,
+				95D946E91F0CDC1300A1D47F /* Base.lproj */,
+			);
+			name = "PopupAlert-iOS";
+			path = testPop;
+			sourceTree = "<group>";
+		};
+		95D946C31F0CDBFC00A1D47F /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				95D946C91F0CDBFC00A1D47F /* HDAlertViewController.swift */,
+				95D946CA1F0CDBFC00A1D47F /* PopViewUtil.swift */,
+				95D946C41F0CDBFC00A1D47F /* AlertViews */,
+				95D946CB1F0CDBFC00A1D47F /* Resources */,
+				95D946D01F0CDBFC00A1D47F /* ToastViews */,
+			);
+			name = pop;
+			path = "PopupAlert-iOS/pop";
+			sourceTree = SOURCE_ROOT;
+		};
+		95D946C41F0CDBFC00A1D47F /* AlertViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D946C51F0CDBFC00A1D47F /* MessageStyleView.swift */,
+				95D946C61F0CDBFC00A1D47F /* MessageStyleView.xib */,
+				95D946C71F0CDBFC00A1D47F /* NomalStyleView.swift */,
+				95D946C81F0CDBFC00A1D47F /* NomalStyleView.xib */,
+			);
+			path = AlertViews;
+			sourceTree = "<group>";
+		};
+		95D946CB1F0CDBFC00A1D47F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95D946CC1F0CDBFC00A1D47F /* ic_toast_success@2x.png */,
+				95D946CD1F0CDBFC00A1D47F /* ic_toast_success@3x.png */,
+				95D946CE1F0CDBFC00A1D47F /* icon_sign@2x.png */,
+				95D946CF1F0CDBFC00A1D47F /* icon_sign@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95D946D01F0CDBFC00A1D47F /* ToastViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D946D11F0CDBFC00A1D47F /* HDToast.swift */,
+				95D946D21F0CDBFC00A1D47F /* ImageToast.swift */,
+				95D946D31F0CDBFC00A1D47F /* ImageToast.xib */,
+				95D946D41F0CDBFC00A1D47F /* TextToast.swift */,
+				95D946D51F0CDBFC00A1D47F /* TextToast.xib */,
+				95D946D61F0CDBFC00A1D47F /* UIViewExt.swift */,
+			);
+			path = ToastViews;
+			sourceTree = "<group>";
+		};
+		95D946E91F0CDC1300A1D47F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				95D946EA1F0CDC1300A1D47F /* LaunchScreen.storyboard */,
+				95D946EC1F0CDC1300A1D47F /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "PopupAlert-iOS/Base.lproj";
+			sourceTree = SOURCE_ROOT;
+		};
+		95D946FC1F0CDC1800A1D47F /* other */ = {
+			isa = PBXGroup;
+			children = (
+				95D946E71F0CDC1300A1D47F /* AppDelegate.swift */,
+				95D946E81F0CDC1300A1D47F /* Assets.xcassets */,
+				95D946EE1F0CDC1300A1D47F /* Info.plist */,
+				95D946EF1F0CDC1300A1D47F /* TestAlertViewController.swift */,
+				95D946F01F0CDC1300A1D47F /* TestToastViewController.swift */,
+				95D946F11F0CDC1300A1D47F /* TestToastViewController.xib */,
+				95D946F21F0CDC1300A1D47F /* ViewController.swift */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952B3ADC1F038975007CDF9F /* PopupAlert-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952B3AEF1F038975007CDF9F /* Build configuration list for PBXNativeTarget "PopupAlert-iOS" */;
+			buildPhases = (
+				952B3AD91F038975007CDF9F /* Sources */,
+				952B3ADA1F038975007CDF9F /* Frameworks */,
+				952B3ADB1F038975007CDF9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopupAlert-iOS";
+			productName = testPop;
+			productReference = 952B3ADD1F038975007CDF9F /* PopupAlert-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952B3AD51F038975007CDF9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈亮陈亮";
+				TargetAttributes = {
+					952B3ADC1F038975007CDF9F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 952B3AD81F038975007CDF9F /* Build configuration list for PBXProject "PopupAlert-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952B3AD41F038975007CDF9F;
+			productRefGroup = 952B3ADE1F038975007CDF9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952B3ADC1F038975007CDF9F /* PopupAlert-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952B3ADB1F038975007CDF9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D946DA1F0CDBFC00A1D47F /* NomalStyleView.xib in Resources */,
+				95D946D81F0CDBFC00A1D47F /* MessageStyleView.xib in Resources */,
+				95D946E51F0CDBFC00A1D47F /* TextToast.xib in Resources */,
+				95D946F51F0CDC1300A1D47F /* LaunchScreen.storyboard in Resources */,
+				95D946E01F0CDBFC00A1D47F /* icon_sign@3x.png in Resources */,
+				95D946F61F0CDC1300A1D47F /* Main.storyboard in Resources */,
+				95D946DE1F0CDBFC00A1D47F /* ic_toast_success@3x.png in Resources */,
+				95D946DD1F0CDBFC00A1D47F /* ic_toast_success@2x.png in Resources */,
+				95D946F71F0CDC1300A1D47F /* Info.plist in Resources */,
+				95D946E31F0CDBFC00A1D47F /* ImageToast.xib in Resources */,
+				95D946F41F0CDC1300A1D47F /* Assets.xcassets in Resources */,
+				95D946DF1F0CDBFC00A1D47F /* icon_sign@2x.png in Resources */,
+				95D946FA1F0CDC1300A1D47F /* TestToastViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952B3AD91F038975007CDF9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D946E61F0CDBFC00A1D47F /* UIViewExt.swift in Sources */,
+				95D946E41F0CDBFC00A1D47F /* TextToast.swift in Sources */,
+				95D946DC1F0CDBFC00A1D47F /* PopViewUtil.swift in Sources */,
+				95D946F31F0CDC1300A1D47F /* AppDelegate.swift in Sources */,
+				95D946F91F0CDC1300A1D47F /* TestToastViewController.swift in Sources */,
+				95D946E21F0CDBFC00A1D47F /* ImageToast.swift in Sources */,
+				95D946FB1F0CDC1300A1D47F /* ViewController.swift in Sources */,
+				95D946E11F0CDBFC00A1D47F /* HDToast.swift in Sources */,
+				95D946D91F0CDBFC00A1D47F /* NomalStyleView.swift in Sources */,
+				95D946F81F0CDC1300A1D47F /* TestAlertViewController.swift in Sources */,
+				95D946D71F0CDBFC00A1D47F /* MessageStyleView.swift in Sources */,
+				95D946DB1F0CDBFC00A1D47F /* HDAlertViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95D946EA1F0CDC1300A1D47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D946EB1F0CDC1300A1D47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95D946EC1F0CDC1300A1D47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D946ED1F0CDC1300A1D47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952B3AED1F038975007CDF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		952B3AEE1F038975007CDF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952B3AF01F038975007CDF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PopupAlert-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hd.testPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		952B3AF11F038975007CDF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PopupAlert-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hd.testPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952B3AD81F038975007CDF9F /* Build configuration list for PBXProject "PopupAlert-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952B3AED1F038975007CDF9F /* Debug */,
+				952B3AEE1F038975007CDF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952B3AEF1F038975007CDF9F /* Build configuration list for PBXNativeTarget "PopupAlert-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952B3AF01F038975007CDF9F /* Debug */,
+				952B3AF11F038975007CDF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952B3AD51F038975007CDF9F /* Project object */;
+}
