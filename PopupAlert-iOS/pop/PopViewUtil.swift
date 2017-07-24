@@ -61,13 +61,13 @@ class PopViewUtil: NSObject {
     }
     
     //MARK: - 标准的样式(标题，内容，左按钮，右按钮)
-    static func  alert(title: String!,message: String!,leftTitle: String!,rightTitle: String!,leftHandler: (() -> ())?,rightHandler: (() -> ())?){
+    static func  alert(title: String!,message: String!,leftTitle: String,rightTitle: String,leftHandler: (() -> ())?,rightHandler: (() -> ())?){
         let alertVC = HDAlertViewController()
         alertVC.alert(title: title, message: message, leftTitle: leftTitle, rightTitle: rightTitle, leftHandler: leftHandler, rightHandler: rightHandler)
     }
     
     //MARK: - 只有内容，左按钮，右按钮 或者只显示一个按钮
-    static func  alert(message: String!,leftTitle: String!,rightTitle: String!,leftHandler: (() -> ())?,rightHandler: (() -> ())?){
+    static func  alert(message: String!,leftTitle: String,rightTitle: String,leftHandler: (() -> ())?,rightHandler: (() -> ())?){
         let alertVC = HDAlertViewController()
         alertVC.alert(message: message, leftTitle: leftTitle, rightTitle: rightTitle, leftHandler: leftHandler, rightHandler: rightHandler)
     }
